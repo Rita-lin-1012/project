@@ -1,0 +1,431 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+    width: 940px;
+    margin: 0 auto;
+    font-family: "Noto Sans TC", sans-serif,Verdana, Tahoma, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a{
+    display: block;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 36.5px;
+}
+.header h1 {
+    width: 25%;
+}
+.manu{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px 60px 0px auto;
+}
+.word{
+    display: block;
+    font-size: 16px;
+    color: #3F5D45;
+    font-weight: bolder;
+    padding: 5px 30px;
+}
+.word a{
+    text-decoration: none;
+}
+.word a:hover{
+    color: gold;
+}
+.banner{
+    margin-bottom: 60px;
+}
+.kind{
+    width: 33%;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.title{
+    background: #3F5D45;
+    color: #EAF0ED;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.type a,.all_dessert a{
+    border: #EAF0ED 1px solid;
+    color: #3F5D45;
+    text-decoration: none;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+.type a:hover{
+    color: gold;
+}
+.all_dessert a{
+    border: #EAF0ED 1px solid;
+    color: #3F5D45;
+    background-color: #EAF0ED;
+}
+.all_dessert a:hover{
+    color: gold;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+.pic1{
+    position: relative;
+    margin-bottom: 20px;
+}
+.pic2{
+    position: relative;
+    margin-bottom: 20px;
+}
+.pic3{
+    position: relative;
+    margin-bottom: 20px;
+}
+.pic4{
+    position: relative;
+    margin-bottom: 20px;
+}
+.pic5{
+    position: relative;
+    margin-bottom: 20px;
+}
+.pic6{
+    position: relative;
+    margin-bottom: 20px;
+}
+.pick{
+    writing-mode: vertical-lr;
+    position: absolute;
+    color: #EAF0ED;
+    background: #3F5D45;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    padding: 10px;
+    left: 20px;
+    top: 0px;
+}
+.heart{
+    display: block;
+	position: absolute;
+    top: 22px;
+    right: 22px;
+    padding: 5px;
+}
+.dollar{
+    display: flex;
+    color: #3F5D45;
+    font-size: 20px;
+    font-weight: bolder;
+    border-left: #EAF0ED solid 1px;
+    border-right: #EAF0ED solid 1px;
+    border-bottom: #EAF0ED solid 1px;
+    align-items: center;
+}
+.dollar h3{
+    text-align: center;
+    padding: 14px 8px;
+    margin-left: 8px;
+}
+.dollar span{
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    padding: 14px 7px;
+    border-left: #EAF0ED solid 1px;
+}
+.buy{
+    display: block;
+    color: #3F5D45;
+    font-weight: bolder;
+    background: #EAF0ED;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.pic1 a:hover{
+    color: gold;
+}
+.pic2 a:hover{
+    color: gold;
+}
+.pic3 a:hover{
+    color: gold;
+}
+.pic4 a:hover{
+    color: gold;
+}
+.pic5 a:hover{
+    color: gold;
+}
+.pic6 a:hover{
+    color: gold;
+}
+.page{
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.page_number{
+    border: 1px solid #EAF0ED;
+    text-align: center;
+}
+.page_number a{
+    padding: 19.5px;
+    display: block;
+    color: #3F5D45;
+    font-size:20px;
+    text-decoration: none;
+}
+.page_number a:hover{
+    color: gold;
+}
+.arrow a{
+    padding: 17px;
+}
+
+.footer{
+    background-color: #EAF0ED;
+}
+.footertop{
+    max-width: 940px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3F5D45;
+    padding: 30px;
+}
+.bottomword{
+    display: flex;
+    align-items: center;
+}
+.bottomword li img{
+    height: 40px;
+    margin-right: 20px;
+}
+.bottomword li{
+    display: block;
+    color: #EAF0ED;
+    font-size: 24px;
+    white-space: nowrap;
+}
+.form{
+    display: flex;
+    position: relative;
+}
+.mail{
+    display: block;
+    background: #EAF0ED;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+}
+.mailIcon {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    bottom: 16px;
+}
+.submit{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #FFE180;
+    outline: none;
+    border: none;
+}
+.footerbottom{
+    padding: 30px;
+    max-width: 940px;
+    margin: 0 auto; 
+    display: flex;
+    background-color: #EAF0ED;
+    justify-content: space-between;
+}
+.bottomright p{
+    writing-mode: vertical-rl;
+    color: #3F5D45;
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif, 標楷體;
+    font-weight: bolder;
+}
+.bottomright p{
+    text-indent: -15px;
+}
+.bottomleft{
+    color: #3F5D45;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detail{
+    font-size: 16px;
+    line-height: 24px;
+}
+.mostbottom{
+    display: flex;
+    max-width: 940px;
+    margin: 0 auto; 
+    background-color: #EAF0ED;
+    justify-content: space-between;
+    align-items: center;
+}
+.mostbottom ul{
+    display: flex;
+    margin-left: 40px;
+}
+.mostbottom ul li a{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    margin-bottom: 40px;
+}
+.mostbottom p{
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+@media(max-width:940px){
+    .ham{
+        display: none;
+    }
+}
+@media(max-width:767px){
+    .container{
+        max-width: 760px;;
+    }
+    .kind{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .ham{
+        display: none;
+    }
+    .inner{
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .page{
+        justify-content: center;
+    }
+    .footertop{
+        flex-direction: column;
+    }
+    .bottomword{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:375px){
+    .container{
+        min-width: 370px;
+    }
+    .word{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+    .kind{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .content{
+        width: 100%;
+        justify-content: center;
+    }
+    .page{
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottomright{
+        display: none;
+    }
+    .footerbottom ul{
+        margin-bottom: 40px;
+    }
+    .mostbottom ul li{
+        margin-bottom: 40px;
+    }
+    .mostbottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

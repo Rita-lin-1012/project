@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+.ressume{
+  font-family:SF Pro Text,'蘋方-繁';
+}
+
+.information{
+  margin-left:auto;
+  margin-right:auto;
+  width:62.5%;  
+}
+h1{
+  font-size:80px;
+  font-weight:Rugular;
+  border-bottom:3px solid #000000;
+  margin-top:40px;
+  padding-bottom:24px;
+  
+}
+h2{
+  font-size:32px;
+  font-weight:medium;
+  line-height:45px;
+  margin-top:72px;
+  margin-bottom:10px;
+  padding-bottom:8px;
+  border-bottom:1px solid #000000;
+}
+span{
+  font-size:24px;
+  line-height:29px;
+  color:#A00404;
+  font-weight:Semibold;
+}
+ul{
+  margin-top:16px;
+}
+li{
+  margin-top:24px;
+  line-height:36px;
+  font-weight:Light;
+}
+/*profile*/
+.profile img{
+  padding-top:48px;
+}
+.profile p{
+  line-height:36px;
+  margin-top:24px;
+  font-weight:Semibold;
+}
+/*skills*/
+.skills{
+  background:#415165;
+  text-align:center;
+  padding-bottom:52px;
+
+}
+.skills h2{
+  font-size:32px;
+  color:#FFFFFF;
+  line-height:45px;
+  padding-top:24px;
+  margin-left:8.5%;
+  margin-right:8.5%;
+  border-bottom:1px solid #FFFFFF;
+}
+.skills span{
+  color:#FFFFFF;
+  font-size:24px;
+  line-height:29px;
+}
+.skills ul{
+  margin-left:41%;
+  border-left:1px solid #96A9C4;
+  
+}
+.skills li{
+  color:#FFFFFF;
+  font-size:24px;
+  font-weight:normal;
+  line-height:36px;
+  text-align:left;
+  padding-left:24px;
+}
+/*work_experience*/
+.work_experience p{
+  font-size:20px;
+  line-height:30px;
+  margin-top:8px;
+}
+.work_experience{
+  border-left:1px solid #96A9C4;
+  padding-left:24px;
+}
+.work_experience li{
+  font-size:24px;
+  margin-top:32px;
+}
+.work_experience img{
+  margin-top:8px;
+}
+/*footer*/
+.footer{
+  background-color:#415165;
+  text-align:center;
+  margin-right:auto;
+  margin-left:auto;
+}
+.footer h2{
+  color:#FFFFFF;
+  font-size:32px;
+  font-weight:Medium;
+  text-align:center;
+  padding-top:24px;
+  line-height:45px;
+  border-bottom:1px solid #FFFFFF;
+  margin-left:18.75%;
+  margin-right:18.75%;
+}
+.footer span{
+  color:#FFFFFF;
+  font-size:24px;
+  line-height:29px;
+}
+.footer li{
+  color:#FFFFFF;
+  margin-top:16px;
+}
+.link{
+  display:inline;
+}
+.link img{
+  margin-left:12px;
+  margin-right:12px;
+  margin-top:20px;
+  margin-bottom:48px;
+}

@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.all{
+    margin-left:auto;
+    margin-right:auto;
+    width: 900px;
+    font-family: 'Courier New', Courier, monospace, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.name{
+        font-size:80px;
+        font-weight:Rugular;
+        border-bottom:3px solid #000000;
+        margin-top:40px;
+        padding-bottom:24px;
+}
+.img{
+    padding-top:48px;
+}
+h2{
+    font-size:32px;
+    font-weight:bold;
+    line-height:45px;
+    margin-top:72px;
+    margin-bottom:10px;
+    padding-bottom:8px;
+    border-bottom:1px solid #000000;
+}
+span{
+    color: #A00404;
+    font-size:24px;
+    line-height:29px;
+    font-weight:Semibold;
+    margin-left: 10px;
+}
+.top{
+    font-size: 24px;
+    line-height: 36px;
+    color: black;
+}
+.profile p{
+    line-height:36px;
+    margin-top:24px;
+    font-weight:lighter;
+    font-size: 24px;
+}
+.skill{
+    background-color: #415165;
+    text-align:center;
+    padding-bottom:52px;
+}
+.skill h3{
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: normal;
+    color: white;
+    padding-top: 24px;
+    border-bottom: 1px solid white;
+}
+.skill ol{
+    padding-top: 20px;
+    border-left:1px solid #808080;
+    margin:5px 10px 20px 40%;
+    padding-left:10px;
+    text-align:left;
+}
+.skill li{
+    color:#FFFFFF;
+    font-size:24px;
+    font-weight:normal;
+    line-height:36px;
+    text-align:left;
+}
+.experence{
+    font-size:20px;
+    line-height:30px;
+    margin-top:8px;
+}
+.border{
+    margin: 15px 20px 20px 20px;
+    border-left: 2px solid yellowgreen;
+    padding-left: 30px;
+}
+.border li{
+    font-size:24px;
+    margin-top:32px;
+    font-weight: bold;
+}
+.border p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.border img{
+    margin-top: 10px;
+}
+.detail{
+    background-color:#415165;
+    text-align:center;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.detail h4{
+    color:#FFFFFF;
+    font-size:32px;
+    font-weight:Medium;
+    text-align:center;
+    padding-top:24px;
+    line-height:45px;
+    border-bottom:1px solid #FFFFFF;
+}
+.detail span{
+    color:#FFFFFF;
+    font-size:24px;
+    line-height:29px;
+}
+.detail UL{
+    color:#FFFFFF;
+    margin-top: 20px;
+    text-align: 36PX;
+    font-weight: lighter;
+}
+.detail li{
+    margin-bottom: 20px;
+}
+.link{
+    display:inline;
+}
+.link img{
+    margin-left:12px;
+    margin-right:12px;
+    margin-top:20px;
+    margin-bottom:48px;
+}

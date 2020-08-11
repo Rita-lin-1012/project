@@ -1,0 +1,43 @@
+h1{
+    color: blueviolet;
+    font-size: 25px;
+    border-left: 10px solid tomato; 
+}
+.style4{
+    border: 10px double skyblue;
+    border-left: 10px solid tomato; 
+}
+p{
+    color: pink;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    text-align: left;
+    text-indent: 40px;
+    text-decoration: underline coral;
+    border-bottom: 5px solid rebeccapurple;
+}
+.style1{
+    color: cyan;
+}
+.style3{
+    color: darkgray;
+    font-size: 30px;
+}
+a{
+    color: brown;
+    font-size: 13px;
+}
+.style2{
+    color: darkblue;
+}
+a:hover{
+    color: burlywood;
+    font-size: 35px;
+}
+a:active{
+    color: cyan;
+}
+img{
+    border: 15px solid peachpuff;
+}

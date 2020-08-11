@@ -1,0 +1,432 @@
+/********** CSS RESET **********/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/********** 自定義 CSS **********/
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+/*** for ALL ***/
+body{
+    font-family: 微軟正黑體, sans-serif;
+}
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+
+/*** Header ***/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.navBar {
+    display: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.header h1 {
+    width: 25%;
+}
+.LOGO {
+    display: block;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logo-all-dark.svg);
+    text-indent: 101%;
+    white-space: nowrap;
+    background-size: contain;
+    height: 40px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    margin: 0px 60px 0px auto;
+}
+.menu-link {
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F5D45;
+    font-weight: bolder;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+.menu-link:hover, .shopping-cart:hover, .navBar:hover{
+    background-color: #EAF0ED;
+}
+.shopping-cart {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*** Banner ***/
+.banner{
+    margin-bottom: 60px;
+}
+
+/*** Content ***/
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* List */
+.list{
+    width: 33%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bolder;
+}
+.list h2{
+    background: #3F5D45;
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.list li{
+    border: 1px solid #EAF0ED;
+}
+.list li a{
+    display: block;
+    color: #3F5D45;
+    text-decoration: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.list li a:hover{
+    background-color: #EAF0ED;
+}
+
+/* Card */
+.card{
+    width: 66%;
+}
+.card-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.item{
+    margin-bottom: 20px;
+}
+.item-header {
+    position: relative;
+}
+.tag{
+    position: absolute;
+    background-color: #3F5D45;
+    writing-mode: vertical-lr;
+    padding: 10px;
+    color: #EAF0ED;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    left: 20px;
+    top: 0;
+}
+.like{
+    display: block;
+    position: absolute;
+    top: 19px;
+    right: 22px;
+    padding: 5px;
+}
+.item-info{
+    display: flex;
+    border-left: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED;
+    border-bottom: 1px solid #EAF0ED;
+    align-items: center;
+    font-size: 20px;
+}
+.name{
+    color: #3F5D45;
+    font-weight: lighter;
+    text-align: center;
+    padding: 14px 0;
+    flex: 1px;
+}
+.price{
+    display: block;
+    text-align: center;
+    line-height: 28px;
+    font-weight: bolder;
+    color: #3F5D45;
+    padding: 14px 20px;
+    border-left: 1px solid #EAF0ED;
+}
+.addToShopCart{
+    display: block;
+    text-align: center;
+    background: #EAF0ED;
+    color: #3F5D45;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: bolder;
+    border: 1px solid #EAF0ED;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.addToShopCart:hover{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
+
+/*** Page ***/
+.page-btns{
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.page-btn{
+    border: 1px solid #EAF0ED;
+    /* font-size: 20px;
+    line-height: 28px; */
+    text-align: center;
+}
+.page-btn a{
+    display: block;
+    padding: 21px;
+    text-decoration: none;
+    color: #3F5D45;
+}
+.page-btn a:hover{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
+.arrow:hover{
+    border-color: #3F5D45;
+}
+.arrow a{
+    padding: 17px;
+}
+.arrow a:hover{
+    background-color: #FFf;
+}
+
+/*** Footer ***/
+.footer-form {
+    background-color: #3F5D45;
+    padding: 30px;
+}
+.container-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.label-form {
+    display: flex;
+    align-items: center;
+}
+.label-form img {
+    height: 40px;
+    margin-right: 20px;
+}
+.label-form span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #EAF0ED;
+}
+.form-input {
+    display: flex;
+    position: relative;
+}
+.form-input input {
+    display: block;
+    padding-left: 65px;
+    font-weight: bold;
+    color: #3F5D45;
+    outline: none;
+    border: none;
+}
+.mailIcon {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    bottom: 16px;
+}
+.form-input button {
+    cursor: pointer;
+    background-color: #FFE180;
+    padding: 16px;
+    outline: none;
+    border: none;
+}
+.footer {
+    background-color: #EAF0ED;
+    padding: 30px 0px;
+}
+.footer-inner-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.contact-method {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.c-list {
+    font-size: 16px;
+    line-height: 24px;
+    color: #3F5D45;
+}
+.slogan {
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #3F5D45;
+}
+.footer-inner-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.c-link {
+    display: flex;
+}
+.c-link a {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+.rights {
+    font-size: 12px;
+    color: #3F5D45;
+}
+
+/******* max-width: 991px *******/
+@media (max-width: 991px){
+    .container{
+        max-width: 767px;
+    }
+    .banner{
+        margin-bottom: 0;
+    }
+    .list{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-list {
+        justify-content: space-around;
+    }
+    .page-btns {
+        justify-content: center;
+    }
+    .container-form {
+        flex-direction: column;
+    }
+    .label-form {
+        margin-bottom: 10px;
+    }
+}
+/******* max-width: 767px *******/
+@media (max-width: 767px){
+    /* .container{
+        max-width: 767px;
+    } */
+    .slogan{
+        display: none;
+    }
+    .navBar{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .header{
+        justify-content: space-around;
+    }
+    .LOGO{
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/logotype-lg-dark.svg);
+    }
+    .footer-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-method img{
+        margin-bottom: 40px;
+    }
+    .footer-inner-bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .c-link{
+        margin-bottom: 23px;
+    }
+}

@@ -1,0 +1,33 @@
+a{
+    color: slateblue;
+    font-size: 40px;
+}
+.style3:hover{
+    color: gold;
+    font-size: 45px;
+}
+.style1{
+    color: red;
+    font-size: 18px;
+}
+h2{
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;
+    font-size: 25px;
+}
+h3{
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;
+    font-size: 25px;
+}
+h4{
+    border-left: 10px solid red;
+    border-bottom: 10px solid red;
+    font-size: 25px;
+}
+img{
+    border: 5px solid blue;
+}
+.style2{
+    text-decoration: line-through;
+}
