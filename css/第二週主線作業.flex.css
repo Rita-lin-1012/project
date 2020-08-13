@@ -90,6 +90,9 @@ a{
 .banner{
     margin-bottom: 60px;
 }
+.inner{
+    display: flex;
+}
 .kind{
     width: 33%;
     text-align: center;
@@ -127,33 +130,44 @@ a{
 .content{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     margin-left: 20px;
+    margin-right: 20px;
     justify-content: space-around;
     text-align: center;
 }
 .pic1{
     position: relative;
     margin-bottom: 20px;
+    width: 50%;
 }
 .pic2{
     position: relative;
     margin-bottom: 20px;
+    width: 50%;
 }
 .pic3{
     position: relative;
     margin-bottom: 20px;
+    width: 50%;
 }
 .pic4{
     position: relative;
     margin-bottom: 20px;
+    width: 50%;
 }
 .pic5{
     position: relative;
     margin-bottom: 20px;
+    width: 50%;
 }
 .pic6{
     position: relative;
     margin-bottom: 20px;
+    width: 50%;
+}
+.photo{
+    width: 100%;
 }
 .pick{
     writing-mode: vertical-lr;
@@ -289,6 +303,8 @@ a{
     font-weight: bolder;
     outline: none;
     border: none;
+    width: 100%;
+    padding: 10px;
 }
 .mailIcon {
     position: absolute;
@@ -298,7 +314,7 @@ a{
 }
 .submit{
     cursor: pointer;
-    padding: 10px;
+    padding: 7px;
     background-color: #FFE180;
     outline: none;
     border: none;
@@ -363,7 +379,8 @@ a{
 }
 @media(max-width:767px){
     .container{
-        max-width: 760px;;
+        max-width: 760px;
+        margin: 0 auto;
     }
     .kind{
         width: 100%;
@@ -379,6 +396,24 @@ a{
         width: 100%;
         justify-content: space-around;
     }
+    .pic1{
+        width: 100%;
+    }
+    .pic2{
+        width: 100%;
+    }
+    .pic3{
+        width: 100%;
+    }
+    .pic4{
+        width: 100%;
+    }
+    .pic5{
+        width: 100%;
+    }
+    .pic6{
+        width: 100%;
+    }
     .page{
         justify-content: center;
     }
@@ -392,6 +427,7 @@ a{
 @media(max-width:375px){
     .container{
         min-width: 370px;
+        margin: 0 auto;
     }
     .word{
         display: none;
@@ -406,6 +442,23 @@ a{
     .content{
         width: 100%;
         justify-content: center;
+    }
+    .pic1{
+        width: 100%;
+    }
+    .pic2{
+        width: 100%;
+    }
+    .pic3{
+        width: 100%;
+    .pic4{
+        width: 100%;
+    }
+    .pic5{
+        width: 100%;
+    }
+    .pic6{
+        width: 100%;
     }
     .page{
         justify-content: center;
