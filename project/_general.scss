@@ -1,0 +1,25 @@
+.container{
+    width: 940px;
+    margin: 0 auto;
+    font-family: "Noto Sans TC", sans-serif,Verdana, Tahoma, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a{
+    display: block;
+}
+@media(max-width:767px){
+    .container{
+        max-width: 760px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:375px){
+    .container{
+        min-width: 370px;
+        margin: 0 auto;
+    }
+}

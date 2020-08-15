@@ -1,0 +1,54 @@
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 36.5px;
+}
+.header h1 {
+    width: 25%;
+}
+.manu{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px 60px 0px auto;
+}
+.word{
+    display: block;
+    font-size: 16px;
+    color: #3F5D45;
+    font-weight: bolder;
+    padding: 5px 30px;
+    white-space: nowrap;
+}
+.word a{
+    text-decoration: none;
+}
+.word a:hover{
+    color: gold;
+}
+@media(max-width:767px){
+    .ham{
+        display: none;
+    }
+}
+@media(max-width:375px){
+    .word{
+        display: none;
+    }
+}
+.ham {
+    display: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    @include iphone6(){
+        display: block;
+    }
+}
+    @include iphone6(){
+    .ham:focus {
+        outline: 0;
+    }
+}

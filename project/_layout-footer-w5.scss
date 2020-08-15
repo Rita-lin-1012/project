@@ -1,0 +1,134 @@
+.footer{
+    background-color: #EAF0ED;
+}
+.footertop{
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3F5D45;
+    padding: 30px;
+}
+.bottomword{
+    display: flex;
+    align-items: center;
+}
+.bottomword li img{
+    height: 40px;
+    margin-right: 20px;
+}
+.bottomword li{
+    display: block;
+    color: #EAF0ED;
+    font-size: 24px;
+    white-space: nowrap;
+}
+.form{
+    display: flex;
+    position: relative;
+}
+.mail{
+    display: block;
+    background: #EAF0ED;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+.mailIcon {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    bottom: 16px;
+}
+.submit{
+    cursor: pointer;
+    padding: 7px;
+    background-color: #FFE180;
+    outline: none;
+    border: none;
+}
+
+.footerbottom{
+    padding: 30px;
+    max-width: 940px;
+    margin: 0 auto; 
+    display: flex;
+    background-color: #EAF0ED;
+    justify-content: space-between;
+}
+.bottomright p{
+    writing-mode: vertical-rl;
+    color: #3F5D45;
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif, 標楷體;
+    font-weight: bolder;
+}
+.bottomright p{
+    text-indent: -15px;
+}
+.bottomleft{
+    color: #3F5D45;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detail{
+    font-size: 16px;
+    line-height: 24px;
+}
+.mostbottom{
+    display: flex;
+    max-width: 940px;
+    margin: 0 auto; 
+    background-color: #EAF0ED;
+    justify-content: space-between;
+    align-items: center;
+}
+.mostbottom ul{
+    display: flex;
+    margin-left: 40px;
+}
+.mostbottom ul li a{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    margin-bottom: 40px;
+}
+.mostbottom p{
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+@media(max-width:767px){
+    .footertop{
+        flex-direction: column;
+    }
+    .bottomword{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:375px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottomright{
+        display: none;
+    }
+    .footerbottom ul{
+        margin-bottom: 40px;
+    }
+    .mostbottom ul li{
+        margin-bottom: 40px;
+    }
+    .mostbottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
