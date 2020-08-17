@@ -1,0 +1,6 @@
+@import 'bootstrap/bootstrap.scss';
+/*先從bootstrap的資料夾移出scss至第六週主線任務的資料夾，
+之後將移出的scss改名為bootstrap，
+最後在import裡面附上的就是路徑了！
+(要注意的是，bootstrap裡面還有一個bootstrap.scss--這才是我們最後要找的)*/
+@import '第六週主線任務index.scss';

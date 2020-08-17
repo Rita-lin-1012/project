@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="第六週主線任務all.css">
+</head>
+<body>
+   <div class="py-4">
+       <div class="container list-unstyled">
+            <h1>Bootstrap grid examples</h1>
+            <p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
+            <p>In these examples the <span class="classname">.themed-grid-col</span> class is added to the columns to add some theming. This is not a class that is available in Bootstrap by default.</p>
+            <button class="btn btn-primary">primary</button>
+            <h2 class="mt-4">Five grid tiers</h2>
+            <p>There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts at a minimum viewport size and automatically applies to the larger devices unless overridden.</p>
+            <ul class="row list-unstyled">
+                <li class="col-4 background">.col-4</li>
+                <li class="col-4 background">.col-4</li>
+                <li class="col-4 background">.col-4</li>
+            </ul>
+            <ul class="row list-unstyled">
+                <li class="col-sm-4 background">col-sm-4</li>
+                <li class="col-sm-4 background">col-sm-4</li>
+                <li class="col-sm-4 background">col-sm-4</li>
+            </ul>
+            <ul class="row list-unstyled">
+                <li class="col-md-4 background">col-md-4 </li>
+                <li class="col-md-4 background">col-md-4 </li>
+                <li class="col-md-4 background">col-md-4 </li>
+            </ul>
+            <ul class="row list-unstyled">
+                <li class="col-lg-4 background">col-lg-4</li>
+                <li class="col-lg-4 background">col-lg-4</li>
+                <li class="col-lg-4 background">col-lg-4</li>
+            </ul>
+            <ul class="row list-unstyled">
+                <li class="col-xl-4 background">col-xl-4</li>
+                <li class="col-xl-4 background">col-xl-4</li>
+                <li class="col-xl-4 background">col-xl-4</li>
+            </ul>
+
+            <h2 class="mt-4">Three equal columns</h2>
+            <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
+            <ul class="row list-unstyled">
+                <li class="col-md-4 background">.col-md-4</li>
+                <li class="col-md-4 background">.col-md-4</li>
+                <li class="col-md-4 background">.col-md-4</li>
+            </ul>
+
+            <h2 class="mt-4">Three unequal columns</h2>
+            <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>
+            <ul class="row list-unstyled">
+                <li class="col-md-3 background">.col-md-3</li>
+                <li class="col-md-6 background">.col-md-6</li>
+                <li class="col-md-3 background">.col-md-3</li>
+            </ul>
+
+            <h2 class="mt-4">Two columns</h2>
+            <p>Get two columns <strong>starting at desktops and scaling to large desktops</strong></p>
+            <ul class="row list-unstyled">
+                <li class="col-md-8 background">.col-md-8</li>
+                <li class="col-md-4 background">.col-md-4</li>
+            </ul>
+            <h2 class="mt-4">Full width, single column</h2>
+            <p class="yellow">No grid classes are necessary for full-width elements.</p>
+
+            <hr width=300 size=1 color=gray noshade>
+
+            <h2 class="mt-4">Two columns with two nested columns</h2>
+            <p>Per the documentation, nesting is easy—just put a row of columns within an existing column. This gives you two columns <strong>starting at desktops and scaling to large desktops</strong>, with another two (equal widths) within the larger column.</p>
+            <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
+            <ul class="row list-unstyled">
+                <!--左-->
+                <li class="col-md-8 background">
+                    <div class="pb-3">.col-md-8</div>
+                    <ul class="row list-unstyled">
+                        <li class="col-md-6 background darker">.col-md-6</li>
+                        <li class="col-md-6 background darker">.col-md-6</li>
+                    </ul>
+                </li>
+                <!--右-->
+                <li class="col-md-4 background">.col-md-4</li>
+            </ul>
+
+            <hr width=300 size=1 color=gray noshade>
+
+            <h2 class="mt-4">Mixed: mobile and desktop</h2>
+            <p>The Bootstrap v4 grid system has five tiers of classes: xs (extra small), sm (small), md (medium), lg (large), and xl (extra large). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
+            <p>Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
+            <ul class="row list-unstyled">
+                <li class="col-12 col-md-8 background">.col-12 .col-md-8</li>
+                <li class="col-12 col-md-4 background">.col-md-4</li>
+            </ul>
+            <ul class="row list-unstyled">
+                <li class="col-6 col-md-4 background">.col-6 .col-md-4</li>
+                <li class="col-6 col-md-4 background">.col-6 .col-md-4</li>
+                <li class="col-6 col-md-4 background">.col-6 .col-md-4</li>
+            </ul>
+            <ul class="row list-unstyled">
+                <li class="col-6 background">.col-6</li>
+                <li class="col-6 background">.col-6</li>
+            </ul>
+
+            <hr width=300 size=1 color=gray noshade>
+           
+            <h2 class="mt-4">Mixed: mobile, tablet, and desktop</h2>
+            <ul class="row list-unstyled">
+                <li class="col-md-8 background">.col-md-8</li>
+                <li class="col-md-4 background">.col-md-4</li>
+            </ul>
+            <ul class="row list-unstyled">
+                <li class="col-6 col-sm-4 background">.col-6 .col-sm-4</li>
+                <li class="col-6 col-sm-4 background">.col-6 .col-sm-4</li>
+                <li class="col-6 col-sm-4 background">.col-6 .col-sm-4</li>
+            </ul>
+       </div>
+   </div> 
+</body>
+</html>
