@@ -32,11 +32,6 @@
         display: none;
     }
 }
-@media(max-width:375px){
-    .word{
-        display: none;
-    }
-}
 .ham {
     display: none;
     border: none;
@@ -50,5 +45,19 @@
     @include iphone6(){
     .ham:focus {
         outline: 0;
+    }
+}
+@media(max-width:375px){
+    .word{
+        display: none;
+    }
+    .navactive{
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }

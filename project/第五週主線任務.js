@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.ham').click(function(event){
-        $('.ham').toggleClass('action');
+    $('.material-icons').click(function(){
+        $('.navactive').toggle();
     });
 });
