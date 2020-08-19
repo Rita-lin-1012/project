@@ -33,8 +33,9 @@ img{
 .navbar-collapse{
     display: flex;
     align-items: center;
+    position: relative;
 }
-.word{
+.navbar-link{
     display: block;
     font-size: 16px;
     color: #3F5D45;
@@ -42,7 +43,7 @@ img{
     padding: 5px 30px;
     white-space: nowrap;
 }
-.word a:hover{
+.navbar-link a:hover{
     color: gold;
 }
 .purchasecar{
